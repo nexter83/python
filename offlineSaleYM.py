@@ -11,7 +11,7 @@ def uploadYm(counterId, token, file):
     headers = {
         'Authorization': 'OAuth ' + token
     }
-    r = requests.post(url, files={'file':open('data.csv', 'r')}, headers=headers)
+    r = requests.post(url, files={'file':open(file, 'r')}, headers=headers)
 
 
 def main():
