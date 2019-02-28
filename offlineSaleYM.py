@@ -1,8 +1,6 @@
 import pandas as pd
-
 from datetime import date, timedelta
 import datetime
-import numpy as np
 import requests
 
 def uploadYm(counterId, token, file):
